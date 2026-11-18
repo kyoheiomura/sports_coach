@@ -1,0 +1,25 @@
+# 場所テンプレート。content/venue/<slug>.yaml にコピーして使う
+slug: venue-slug                  # ローマ字。ファイル名と同じにする
+name: スクールや練習場所の名前
+nameKana: なまえ
+kind: スクール                    # スクール / 個人レッスン / クラブチーム / レッスンスタジオ / その他
+address:
+  prefSlug: tokyo                 # data/areas.ts にある値だけ（なければ先に追加）
+  citySlug: setagaya
+  line: ○○町1-2-3
+  # building: 施設名・階
+stations:
+  - line: 路線名
+    name: 駅名                    # 「駅」は付けない
+    walkMin: 5
+hours:                            # レッスンをしている時間帯
+  - days: [月, 火, 水, 金]        # 月 火 水 木 金 土 日 祝
+    open: "10:00"
+    close: "20:00"
+# hoursNote: 休みの日や雨の日の扱いなど（80字以内）
+booking:                          # 1つ以上
+  phone: 03-0000-0000
+  # url: https://
+  # line: https://
+features: []                      # 屋内 / 駐車場 / 用具の貸し出し / 更衣室・シャワー / 保護者の見学可 / 出張レッスン / オンライン相談 / 英語対応
+verifiedAt: 2026-01-10

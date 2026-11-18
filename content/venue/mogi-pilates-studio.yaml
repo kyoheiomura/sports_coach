@@ -1,0 +1,26 @@
+# ダミー（架空の場所）
+slug: mogi-pilates-studio
+name: もぎピラティススタジオ
+nameKana: もぎぴらてぃすすたじお
+kind: レッスンスタジオ
+address:
+  prefSlug: tokyo
+  citySlug: suginami
+  line: 架空町6-7-8（架空の住所）
+  building: 模擬ハイツ1階
+stations:
+  - line: 架空線
+    name: 模擬が丘
+    walkMin: 6
+hours:
+  - days: [火, 水, 金]
+    open: "10:00"
+    close: "20:30"
+  - days: [土, 日]
+    open: "09:00"
+    close: "16:00"
+hoursNote: 月・木・祝は休み。完全予約制
+booking:
+  url: https://example.com/mogi-pilates-studio
+features: [屋内, 用具の貸し出し, 更衣室・シャワー]
+verifiedAt: 2026-11-10

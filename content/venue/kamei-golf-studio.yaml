@@ -1,0 +1,26 @@
+# ダミー（架空の場所）
+slug: kamei-golf-studio
+name: 仮名ゴルフスタジオ
+nameKana: かめいごるふすたじお
+kind: レッスンスタジオ
+address:
+  prefSlug: tokyo
+  citySlug: suginami
+  line: 架空町5-6-7（架空の住所）
+  building: 仮名ビル3階
+stations:
+  - line: 架空線
+    name: 仮名坂
+    walkMin: 3
+hours:
+  - days: [火, 水, 木, 金]
+    open: "11:00"
+    close: "21:30"
+  - days: [土, 日, 祝]
+    open: "09:00"
+    close: "18:00"
+hoursNote: 月は休み。完全予約制
+booking:
+  url: https://example.com/kamei-golf-studio
+features: [屋内, 用具の貸し出し, オンライン相談]
+verifiedAt: 2026-11-01
